@@ -3,6 +3,8 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Demo = () => {
   return (
+    <div>
+    <h2>HDip Computer Science - Modules table</h2>
     <table className="table table-bordered">
     <thead>
       <tr>
@@ -13,17 +15,18 @@ const Demo = () => {
     </thead>
     <tbody >
       <tr>
-        <td>DevOps</td>
+        <td>Business Analysis</td>
         <td>2</td>
         <td>2</td>
       </tr>
       <tr>
-        <td>Enterprise Web Dev</td>
+        <td>Agile Software Practice</td>
         <td>3</td>
         <td>2</td>
       </tr>
     </tbody >
   </table>
+  </div>
   );
 };
 
